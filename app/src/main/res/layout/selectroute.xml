@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/maintaskcolor">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সঠিক তথ্য দিয়ে আপনি সবুজ বাসটি খুজুন"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromto"
+        android:entries="@array/fromto"
+        ></Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/bustype"
+        android:id="@+id/bustype"
+        android:layout_marginTop="10dp"
+        ></Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:entries="@array/time"
+            android:id="@+id/time"
+            >
+        </Spinner>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:entries="@array/busroute"
+            android:id="@+id/route"
+            ></Spinner>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/searcbtn"
+        android:src="@drawable/ic_search_black_24dp"
+        />
+
+</LinearLayout>

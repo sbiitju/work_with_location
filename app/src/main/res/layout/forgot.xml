@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/maintaskcolor"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotnumber"
+        android:hint="Phone Number"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpass"
+        android:layout_marginBottom="5dp"
+        android:hint=" Password"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpass2"
+        android:hint="Confirm Password"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/forgotsave"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+    </TextView>
+
+
+</LinearLayout>

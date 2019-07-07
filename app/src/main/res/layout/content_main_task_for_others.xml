@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/maintaskcolor"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainTaskForOthers"
+    tools:showIn="@layout/app_bar_main_task_for_others">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="0dp"
+        app:cardCornerRadius="10dp"
+        android:layout_weight="1"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearheader"
+        android:background="@drawable/animationbackground"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="3"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Bus Schedule"
+            android:onClick="BusSchedule"
+            android:drawableLeft="@drawable/ic_directions_bus_black_24dp"
+            android:layout_marginHorizontal="128dp"
+            android:textAllCaps="false"
+            android:background="@drawable/maintaskcolor"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:onClick="Search"
+            android:layout_gravity="center"
+            android:text="Search your BUS Here"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:layout_marginHorizontal="128dp"
+            android:background="@drawable/maintaskcolor"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="ChatRoom"
+            android:onClick="ChatRoom"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_message_black_24dp"
+            android:layout_marginHorizontal="128dp"
+            android:background="@drawable/maintaskcolor"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#4CB2E0"
+        android:text="Teacher"
+        android:id="@+id/teacher"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#4CB2E0"
+        android:text="Student"
+        android:id="@+id/student"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+</LinearLayout>

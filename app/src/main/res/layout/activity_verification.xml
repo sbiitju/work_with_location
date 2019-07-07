@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/maintaskcolor"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Verification"
+    >
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/verification"
+        android:layout_marginTop="19dp"
+        android:hint="OTP"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="60dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="60dp"
+        android:weightSum="2"
+        android:layout_marginTop="19dp"
+        >
+        <Button
+            android:layout_marginBottom="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="Verify"
+            android:background="@drawable/maintaskcolor"
+            android:text="Verify"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="SendAgain"
+            android:background="@drawable/maintaskcolor"
+            android:text="Send Code Again"/>
+    </LinearLayout>
+
+</LinearLayout>

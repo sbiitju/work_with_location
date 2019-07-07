@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "118164350179",
+    "firebase_url": "https://jugreenbus.firebaseio.com",
+    "project_id": "jugreenbus",
+    "storage_bucket": "jugreenbus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118164350179:android:9f51700b4fab259f",
+        "android_client_info": {
+          "package_name": "com.sbiitju.jugreenbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118164350179-u4cnoas58hjeb0cf3niul5g5ue0iji5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sbiitju.jugreenbus",
+            "certificate_hash": "878b695eab2c1aea3352d3d8b0e0068947fec8cf"
+          }
+        },
+        {
+          "client_id": "118164350179-l0u7ioj2t767nfo4atsfenblp354f0k0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIA2VyvxY5FbUZEkum_cwpqa10uR_rZ20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118164350179-l0u7ioj2t767nfo4atsfenblp354f0k0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
